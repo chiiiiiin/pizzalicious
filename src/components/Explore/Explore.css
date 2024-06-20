@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+.explore-menu{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 5rem 10rem;
+}
+
+.explore-menu h1{
+    font-size: 50px;
+    font-family: "Oleo Script", system-ui;
+    color: #b72a23;
+    font-weight: 500;
+}
+
+.explore-menu .explore-menu-text{
+    color: #686867;
+    font-size: 18px;
+    font-weight: 200;
+    max-width: 60%;
+}
+
+.explore-menu .explore-menu-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+
+.explore-menu .explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-menu .explore-menu-list img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.explore-menu .explore-menu-list p{
+    color: #686867;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.explore-menu hr{
+    margin-top: 5px 0;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.explore-menu .explore-menu-list .active{
+    transform: scale(1.1);
+}
+
+@media (max-width:1050px) {
+    .explore-menu{
+        padding: 5rem;
+    }
+    .explore-menu h1{
+        font-size: 45px;
+    }
+    .explore-menu .explore-menu-text{
+        font-size: 17px;
+    }
+    .explore-menu .explore-menu-list{
+        padding: 1rem;
+    }
+    .explore-menu .explore-menu-list p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:900px){
+    .explore-menu{
+        padding: 3rem;
+    }
+    .explore-menu h1{
+        font-size: 40px;
+    }
+    .explore-menu .explore-menu-text{
+        font-size: 15px;
+    }
+    .explore-menu .explore-menu-list{
+        padding: 0.5rem;
+    }
+    .explore-menu .explore-menu-list p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:750px){
+    .explore-menu{
+        padding: 1.5rem;
+    }
+    .explore-menu h1{
+        font-size: 35px;
+    }
+    .explore-menu .explore-menu-text{
+        font-size: 14px;
+    }
+    .explore-menu .explore-menu-list{
+        padding: 0.3rem;
+    }
+    .explore-menu .explore-menu-list p{
+        font-size: 13px;
+    }
+}

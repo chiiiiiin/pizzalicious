@@ -1,0 +1,116 @@
+.footer{
+    margin: 0;
+    padding: 0 1rem;
+    background-color: #EEEDE8;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.footer .footer-container-top{
+    color: #2d2d2d;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer .footer-container-top .footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+    padding: 4rem 0 0 0;
+}
+
+.footer .footer-container-top .footer-flex .footer-get,
+.footer .footer-container-top .footer-flex .footer-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer .footer-container-top .footer-flex .footer-get .title,
+.footer .footer-container-top .footer-flex .footer-hours .title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer .footer-container-top .footer-flex .footer-get p
+.footer .footer-container-top .footer-flex .footer-hours p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer .footer-container-top .footer-flex .footer-pizza img{
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer .footer-container-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b72a23;
+    padding: 0 0 3rem 0;
+}
+
+.footer .footer-container-mid .footer-pizza-icon{
+    display: flex;
+    gap: 3rem;
+    padding-left: 5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer .footer-container-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #2d2d2d;
+    padding: 0.5rem 0;
+    color: #2d2d2d;
+}
+
+.footer .footer-container-bottom p{
+    font-size: 13px;
+    font: 400;
+    padding-left: 5rem;
+}
+
+@media (max-width:1050px){
+    .footer .footer-container-top .footer-flex{
+        gap: 5rem;
+    }
+}
+
+
+@media (max-width:900px){
+    .footer .footer-container-top .footer-flex{
+        gap: 3rem;
+    }
+}
+
+@media (max-width:750px) {
+    .footer .footer-container-top .footer-flex{
+        gap: 1rem;
+    }
+
+    .footer .footer-container-top .footer-flex .footer-get .title,
+    .footer .footer-container-top .footer-flex .footer-hours .title{
+    font-size: 16px;
+    }
+
+    .footer .footer-container-top .footer-flex .footer-get p,
+    .footer .footer-container-top .footer-flex .footer-hours p{
+        font-size: 12px;
+    }
+    .footer .footer-container-mid .footer-pizza-icon{
+        gap: 2rem;
+        padding-left: 3rem;
+        font-size: 15px;
+    }
+    .footer .footer-container-bottom p{
+        font-size: 13px;
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+.navbar{
+    padding: 50px 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Outfit";
+    color: #ffff;
+}
+
+.navbar .logo{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar .navbar-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar .navbar-right .navbar-right-list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #F4DCAE;
+}
+
+.navbar .dot{
+    position: relative;
+}
+
+.navbar .dot img{
+    width: 80%;
+    height: auto;
+    max-width: auto;
+}
+
+.navbar .cart{
+    position: absolute;
+    min-height: 10px;
+    min-width: 10px;
+    background-color: #F4DCAE;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+@media (max-width:1050px) {
+    .navbar{
+        padding: 40px 5rem;
+    }
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+}
+
+@media (max-width:900px) {
+    .navbar{
+        padding: 40px 4rem;
+    }
+    .navbar .logo{
+        width: 150px;
+    }
+    .navbar .navbar-menu{
+        gap: 15px;
+        font-size: 15px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 15px;
+    }
+    .navbar .navbar-right .navbar-right-list{
+        font-size: 15px;
+    }
+    .navbar .dot img{
+        width: 70%;
+    }
+
+
+}
+
+@media (max-width:750px) {
+    .navbar .navbar-menu{
+       display: none;
+    }
+}

@@ -1,0 +1,1921 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEDE8;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.book {
+    height: 18vh;
+    width: auto;
+    background-color: #b72a23;
+    margin: 0;
+    padding: 0;
+
+    /* Add flex properties to center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book .form{
+    background-color: #fff;
+    width: 80%;
+    border-radius: 50px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.book .form .flex-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.book .form .flex-form label{
+    color: #b72a23;
+}
+
+.book .form .flex-form input{
+    border-bottom: 1px solid #686868;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input, select {
+    padding: 0.5em;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+    border-radius: 0; /* Remove any border radius */
+}
+
+
+.book .form .flex-form .guest {
+    border-bottom: 1px solid #686868;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.book .form .flex-form span{
+    background-color: #b72a23;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.book .book-img{
+    width: 7%;
+    height: auto;
+    padding: 0 1rem;
+}
+
+.body .about{
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    padding: 0 5rem;
+}
+
+
+.body .about .about-feast-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.body .about .about-feast-grid .feast-grid-img img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.body .about .about-feast .title{
+    font-size: 50px;
+    font-family: "Oleo Script", system-ui;
+    color: #b72a23;
+}
+
+.body .about .about-feast-grid .feast-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem; 
+    margin-top: 3rem;
+}
+
+.body .about .about-feast-grid .feast-grid .feast-grid-detail,
+.body .about .about-feast-grid .feast-grid .feast-grid-detail-left{
+    height: auto;
+}
+
+.body .about .about-feast-grid .feast-grid .feast-grid-detail-left{
+    padding-top: 3rem;
+}
+
+
+.body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+.body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+.body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+.body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2D2D2D;
+}
+
+.body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+.body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.body .about .about-feast-grid .feast-grid img{
+    width: 15%;
+    height: auto;
+    max-width: auto;
+}
+
+.body .about .about-feast-grid .feast-grid .detail{
+    color: #686867;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.about .about-taste{
+    display: grid;
+    grid-template-columns: 20rem auto;
+    gap: 3rem;
+    place-items: center;
+}
+
+.about .about-taste .about-taste-side{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: start;
+}
+
+.about .about-taste .about-taste-side .title{
+    font-family: "Oleo Script", system-ui;
+    color: #b72a23;
+    font-size: 50px;
+}
+
+.about .about-taste .about-taste-side p{
+    color: #686867;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.about .about-taste .about-taste-side .button{
+    display: flex;
+    gap: 5rem;
+
+}
+
+.about .about-taste .about-taste-side .button button{
+    padding: 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #b72a23;
+    color: #b72a23;
+}
+
+.about .about-taste .about-taste-img{
+    display: flex;
+    gap: 3rem;
+}
+
+.about .about-taste .about-taste-img .about-taste-recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about .about-taste .about-taste-img .about-taste-recipe img{
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+}
+
+.about .about-taste .about-taste-img .about-taste-recipe .title{
+    color: #b72a23;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.about .about-taste .about-taste-img .about-taste-recipe p{
+    color: #686867;
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
+    width: 70%;
+}
+
+.about .about-taste .about-taste-img .about-taste-recipe button{
+    border: none;
+    cursor: pointer;
+    color: #b72a23;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.body .order{
+    margin-top: 7rem;
+    padding: 0;
+}
+
+
+.order .text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #b72a23;
+    border-bottom: 1px solid #b72a23;
+    height: 13vh;
+    width: 100%;
+}
+
+.order .text-wrapper p{
+    font-family: "Oleo Script", system-ui;
+    color: #b72a23;
+    font-size: 60px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0 0.5rem;
+    letter-spacing: 1px;
+    animation: move 6000ms linear infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.order .order-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order .order-content .order-content-one img,
+.order .order-content .order-content-three img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.order .order-content .order-content-two .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.order .order-content .order-content-two .detail .title{
+    color: #b72a23;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Oleo Script", system-ui;
+}
+
+.order .order-content .order-content-two .content{
+    color: #686867;
+    font-size: 17px;
+    font-weight: 200;
+    text-align: center;
+    width: 60%;
+}
+
+.order .order-content .order-content-two button{
+    background-color: #b72a23;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.body .best-pizza{
+    margin: 0;
+    padding: 0;
+    background-image: url('./bestbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #b72a23;
+    border-top: 1px solid #b72a23;
+}
+
+.body .best-pizza .best-pizza-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.body .best-pizza .best-pizza-container .title{
+    color: #b72a23;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oleo Script", system-ui;
+    margin-bottom: 3rem;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content{
+    display: flex;
+    gap: 5rem;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list-detail ,
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list-detail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed #b72a23;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list,
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D2D2D;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+.body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+    font-weight: 400;
+    font-size: 15px;
+    color: #2D2D2D;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-buttom{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img1,
+.body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img2{
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+    background-color: #b72a23;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #555555;
+    text-align: center;
+}
+
+.speciality{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speciality .speciality1 .speciality2-content,
+.speciality .speciality2 .speciality1-content2{
+    height: 80.5vh;
+    width: auto;
+}
+
+.speciality .speciality1 .speciality2-content,
+.speciality .speciality2 .speciality1-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start  ;
+    gap: 2rem;
+    padding-left: 50px;
+}
+
+.speciality .speciality1 .speciality2-content .content1-title,
+.speciality .speciality2 .speciality1-content2 .content-title{
+    color: #b72a23;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Oleo Script", system-ui;
+    padding-left: 5rem;
+}
+
+.speciality .speciality1 .speciality2-content p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #555555;
+    padding-left: 5rem;
+}
+
+.speciality .speciality1 .speciality2-content button{
+    background-color: #b72a23;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+.speciality .speciality2 .speciality1-content2 p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #555555;
+    padding-left: 5rem;
+}
+
+.speciality .speciality2 .speciality1-content2 .price{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.speciality .speciality2 .speciality1-content2 .price .price1 p,
+.speciality .speciality2 .speciality1-content2 .price .price2 p{
+    color: #2D2D2D;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.speciality .speciality2 .speciality1-content2 .price .price1 p span,
+.speciality .speciality2 .speciality1-content2 .price .price2 p span{
+    color: #b72a23;
+    font-size: 25px;
+    padding-left: 1rem;
+    
+}
+
+
+.speciality .speciality1 .speciality1-content img,
+.speciality .speciality2 .speciality2-content2 img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.pizza-marquee{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #b72a23;
+    margin-top: 5rem;
+    
+}
+
+.pizza-marquee .marquee-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.pizza-marquee .marquee-container .marquee-img img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.pizza-marquee .marquee-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    height: 13vh;
+    width: 100%;
+    background-color: #b72a23;
+    margin-top: 2rem;
+
+}
+
+.pizza-marquee .marquee-text p{
+    font-family: "Oleo Script", system-ui;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0 0.5rem;
+    letter-spacing: 1px;
+    animation: move1 6000ms linear infinite;
+}
+
+
+@keyframes move1{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width:1280px){
+    /* Best Pizza */
+
+    .body .best-pizza{
+        background-size: 100% auto;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 8rem;
+    }
+    .body .best-pizza .best-pizza-container .best-pizza-content{
+        gap: 3rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+        gap: 1.5rem;
+    }
+    
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+        font-size: 20px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+        font-size: 13px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom{
+        gap: 4rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img1 img,
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img2 img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+        padding: 1rem 2rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+        font-size: 13px;
+    }
+    
+    /* Speciality */
+
+    .speciality{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 60vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.5rem;
+        padding: 1rem 0.5rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 30px;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 13px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 1rem 2rem;
+        margin-top: 10px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 18px;
+        margin-left: -10px;
+    
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p span,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p span{
+        padding-left: 0.5rem;
+    }
+    
+    .speciality .speciality1 .speciality1-content img,
+    .speciality .speciality2 .speciality2-content2 img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:1050px){
+    .book {
+        height: 15vh;
+    }
+    
+    .book .form{
+        gap: 3rem;
+    }
+    input, select {
+        padding: 0.3em;
+    }
+    
+    .book .form .flex-form button{
+        padding: 0.8rem 1rem;
+    }
+    
+    .book .book-img{
+        width: 7%;
+        height: auto;
+        padding: 0 1rem;
+    }
+
+    /* About*/
+
+    .body .about{
+        margin-top: 2rem;
+        padding: 0 4rem;
+    }
+    .body .about .about-feast .title{
+        font-size: 45px;
+    }
+    .body .about .about-feast-grid .feast-grid{
+        gap: 1.5rem; 
+        margin-top: 2rem;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left{
+        padding-top: 2rem;
+    }
+    
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+        font-size: 20px;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .body .about .about-feast-grid .feast-grid img{
+        width: 15%;
+    }
+    .body .about .about-feast-grid .feast-grid .detail{
+
+        font-size: 13px;
+    }
+
+    /* About Taste */
+
+    .about .about-taste{
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+    
+    .about .about-taste .about-taste-side{
+        gap: 1rem;
+    }
+    
+    .about .about-taste .about-taste-side .title{
+        font-size: 45px;
+    }
+    
+    .about .about-taste .about-taste-side p{
+        font-size: 15px;
+    }
+    
+    .about .about-taste .about-taste-side .button{
+        gap: 4rem;
+    
+    }
+    .about .about-taste .about-taste-img{
+        gap: 2rem;
+    }
+    
+
+    
+    .about .about-taste .about-taste-img .about-taste-recipe img{
+        width: 75%;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe .title{
+        font-size: 20px;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe p{
+        font-size: 15px;
+    }
+
+    /* Order */
+
+    .body .order{
+        margin-top: 4rem;
+    }
+    .order .order-content .order-content-two .detail{
+        gap: 1rem;
+    }
+    
+    .order .order-content .order-content-two .detail .title{
+        font-size: 40px;
+    }
+    
+    .order .order-content .order-content-two .content{
+        font-size: 15px;
+        width: 55%;
+    }
+    
+    .order .order-content .order-content-two button{
+        padding: 1rem 2rem;
+    }
+
+    /* Best Pizza */
+
+    .body .best-pizza{
+        background-size: 100% auto;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 8rem;
+    }
+    .body .best-pizza .best-pizza-container .best-pizza-content{
+        gap: 3rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+        gap: 1.5rem;
+    }
+    
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+        font-size: 20px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+        font-size: 13px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom{
+        gap: 4rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img1 img,
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-img2 img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+        padding: 1rem 2rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+        font-size: 13px;
+    }
+
+    /* Speciality */
+
+    .speciality{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 48.7vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.5rem;
+        padding: 1rem 0.5rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 30px;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 13px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 1rem 2rem;
+        margin-top: 10px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 13px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 18px;
+        margin-left: -10px;
+    
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p span,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p span{
+        padding-left: 0.5rem;
+    }
+    
+    .speciality .speciality1 .speciality1-content img,
+    .speciality .speciality2 .speciality2-content2 img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:900px){
+    .book .form{
+        gap: 2rem;
+    }
+    input, select {
+        padding: 0.3em;
+    }
+    
+    .book .form .flex-form button{
+        padding: 0.8rem;
+    }
+    
+    .book .book-img{
+        width: 8%;
+    }
+
+    /* About*/
+
+    .body .about{
+        margin-top: 3rem;
+        padding: 0 3rem;
+    }
+    .body .about .about-feast .title{
+        font-size: 38px;
+    }
+    .body .about .about-feast-grid .feast-grid{
+        gap: 1rem; 
+    }
+    
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+        font-size: 18px;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+    .body .about .about-feast-grid .feast-grid img{
+        width: 20%;
+    }
+    .body .about .about-feast-grid .feast-grid .detail{
+        font-size: 11px;
+    }
+
+    /* About Taste */
+
+    .about .about-taste{
+        gap: 0.5rem;
+        margin-top: 3rem;
+    }
+    
+    .about .about-taste .about-taste-side{
+        gap: 0.5rem;
+    }
+    
+    .about .about-taste .about-taste-side .title{
+        font-size: 40px;
+    }
+    
+    .about .about-taste .about-taste-side p{
+        font-size: 13px;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about .about-taste .about-taste-side .button{
+        gap: 3rem;
+    
+    }
+    .about .about-taste .about-taste-img{
+        gap: 1rem;
+    }
+    
+
+    
+    .about .about-taste .about-taste-img .about-taste-recipe img{
+        width: 80%;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe .title{
+        font-size: 18px;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe p{
+        font-size: 13px;
+    }
+
+    /* Order */
+
+    .body .order{
+        margin-top: 3rem;
+    }
+    .order .order-content .order-content-two .detail{
+        gap: 0.5rem;
+    }
+    
+    .order .order-content .order-content-two .detail .title{
+        font-size: 35px;
+    }
+    
+    .order .order-content .order-content-two .content{
+        font-size: 13px;
+        width: 55%;
+    }
+    
+    .order .order-content .order-content-two button{
+        padding: 1rem;
+        font-size: 10px;
+    }
+
+    /* Best Pizza */
+
+    .body .best-pizza{
+        background-size: 100% auto;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 10rem;
+    }
+    .body .best-pizza .best-pizza-container .best-pizza-content{
+        gap: 2rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+        gap: 1rem;
+    }
+    
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+        font-size: 18px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+        font-size: 11px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+        gap: 0.5rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+        padding: 0.8rem 1.2rem;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+        font-size: 13px;
+    }
+
+    /* Speciality */
+
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 41.7vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 11px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 1rem;
+        margin-top: 8px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 11px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        justify-content: space-around;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 15px;
+        margin-left: -10px;
+        align-items: center;
+        display: flex;
+    } 
+}
+
+@media (max-width:750px){
+    .book .form{
+        gap: 1rem;
+        padding: 12px;
+    }
+    input, select {
+        padding: 5px;
+    }
+
+    .book .form .flex-form label{
+        font-size: 12px;
+    }
+    
+    .book .form .flex-form button{
+        padding: 0.5rem;
+    }
+    
+    .book .book-img{
+        width: 10%;
+    }
+
+    /* About*/
+
+    .body .about{
+        margin-top: 3rem;
+        padding: 0 2rem;
+    }
+    .body .about .about-feast .title{
+        font-size: 30px;
+    }
+    .body .about .about-feast-grid .feast-grid{
+        gap: 1rem; 
+    }
+    
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+        font-size: 15px;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .body .about .about-feast-grid .feast-grid img{
+        width: 20%;
+    }
+    .body .about .about-feast-grid .feast-grid .detail{
+        font-size: 10px;
+    }
+
+    /* About Taste */
+
+    .about .about-taste{
+        gap: 0.2rem;
+        margin-top: 3rem;
+    }
+    
+    .about .about-taste .about-taste-side{
+        gap: 0.3rem;
+    }
+    
+    .about .about-taste .about-taste-side .title{
+        font-size: 35px;
+    }
+    
+    .about .about-taste .about-taste-side p{
+        font-size: 11px;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+    }
+    
+    .about .about-taste .about-taste-side .button{
+        gap: 3rem;
+    }
+    .about .about-taste .about-taste-side .button i{
+        font-size: 10px;
+        
+    }
+    .about .about-taste .about-taste-img{
+        gap: 0.5rem;
+    }
+
+    .about .about-taste .about-taste-img .about-taste-recipe img{
+        width: 70%;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe .title{
+        font-size: 15px;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe p{
+        font-size: 10px;
+    }
+
+    /* Order */
+
+    .body .order{
+        margin-top: 3rem;
+    }
+    .order .order-content .order-content-two .detail{
+        gap: 0.5rem;
+    }
+    
+    .order .order-content .order-content-two .detail .title{
+        font-size: 25px;
+    }
+    
+    .order .order-content .order-content-two .content{
+        font-size: 11px;
+        width: 55%;
+    }
+    
+    .order .order-content .order-content-two button{
+        padding: 0.5rem;
+        font-size: 8px;
+    }
+
+    /* Best Pizza */
+
+    .body .best-pizza{
+        background-size: 100% auto;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 8rem;
+    }
+    .body .best-pizza .best-pizza-container .best-pizza-content{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+        gap: 0.5rem;
+    }
+    
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+        font-size: 15px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+        font-size: 9px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom{
+        gap: 0.5rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+        gap: 0.5rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+        padding: 0.8rem 1.2rem;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+        font-size: 11px;
+    }
+
+    /* Speciality */
+
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 34.8vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.5rem;
+        padding: 0.1rem;
+        margin-left: -2rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 11px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 0.8rem;
+        margin-top: 5px;
+        font-size: 9px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 10px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.3rem;
+        justify-content: space-around;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 12px;
+        margin-left: -10px;
+        align-items: center;
+        display: flex;
+    }
+}
+
+
+@media (max-width:600px){
+    .book {
+        height: auto;
+        padding: 1rem 3rem;
+    }
+    
+    .book .form{
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+    }
+    input, select {
+        padding: 0.3em;
+    }
+    
+    .book .form .flex-form button{
+        padding: 0.8rem 1rem;
+    }
+    
+    .book .book-img{
+        width: 15%;
+        height: auto;
+        padding: 0 1rem;
+    }
+
+    /* About*/
+
+    .body .about{
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+    .body .about .about-feast .title{
+        font-size: 30px;
+    }
+    .body .about .about-feast-grid .feast-grid{
+        gap: 1rem; 
+        margin-top: 2rem;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left{
+        padding-top: 2rem;
+    }
+    
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+        font-size: 15px;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .body .about .about-feast-grid .feast-grid img{
+        width: 20%;
+    }
+    .body .about .about-feast-grid .feast-grid .detail{
+
+        font-size: 10px;
+    }
+
+    /* About Taste */
+
+    .about .about-taste{
+        gap: 0.5rem;
+        margin-top: 3rem;
+    }
+    
+    .about .about-taste .about-taste-side{
+        gap: 0.1rem;
+    }
+    
+    .about .about-taste .about-taste-side .title{
+        font-size: 23px;
+    }
+    
+    .about .about-taste .about-taste-side p{
+        font-size: 9px;
+    }
+    
+    .about .about-taste .about-taste-side .button{
+        gap: 2rem;
+    
+    }
+    .about .about-taste .about-taste-img{
+        gap: 1rem;
+    }
+
+    .about .about-taste{
+        grid-template-columns: 10rem auto;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe img{
+        width: 70%;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe .title{
+        font-size: 9px;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe p{
+        font-size: 10px;
+    }
+
+    .about .about-taste .about-taste-img .about-taste-recipe button{
+        font-size: 9px;
+        font-weight: 600;
+    }
+
+    /* Order */
+ 
+    .order .text-wrapper{
+        height: 10vh;
+    }
+    
+    .order .text-wrapper p{
+        font-size: 40px;
+    }
+
+    .order .order-content .order-content-two .detail{
+        gap: 0.5rem;
+        padding: 1rem 1.5rem;
+        text-align: center;
+    }
+    
+    .order .order-content .order-content-two .detail .title{
+        font-size: 16px;
+    }
+    
+    .order .order-content .order-content-two .content{
+        color: #686867;
+        font-size: 10px;
+        width: 90%;
+    }
+    
+    .order .order-content .order-content-two button{
+        padding: 0.5rem 1rem;
+    }
+
+    /* Best Pizza */
+
+    .body .best-pizza .best-pizza-container .title{
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 5rem;
+    }
+    .body .best-pizza .best-pizza-container .best-pizza-content{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right{
+        gap: 0.5rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list{
+        gap: 0.3rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .best-pizza-content-list-detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .best-pizza-content-list-detail{
+        font-size: 13px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-left .best-pizza-content-list .detail,
+    .body .best-pizza .best-pizza-container .best-pizza-content .best-pizza-content-right .best-pizza-content-list .detail{
+        font-size: 8px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom{
+        gap: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order{
+        gap: 0.4rem;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order button{
+        padding: 0.8rem 1rem;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    .body .best-pizza .best-pizza-container .best-pizza-buttom .best-pizza-order p{
+        font-size: 11px;
+    }
+
+    /* Speciality */
+
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 28vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.5rem;
+        padding: 0.1rem;
+        margin-left: -3rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 9px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 0.8rem;
+        margin-top: 5px;
+        font-size: 9px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 9px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(80px,1fr));
+        width: 100%;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 10px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        font-weight: 500;
+        width: 180px;
+    }
+
+    .pizza-marquee .marquee-text{
+        height: 10vh;
+    }
+    
+    .pizza-marquee .marquee-text p{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:426px){
+    .book {
+        height: auto;
+        padding: 1rem 2rem;
+    }
+    
+    .book .form{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        padding: 1rem 2rem;
+    }
+    input, select {
+        padding: 0.3rem;
+    }
+    
+    .book .form .flex-form button{
+        padding: 0.5rem;
+        width: 70%;
+        display: grid;
+        place-self: center;
+    }
+    
+    .book .book-img{
+        width: 18%;
+        height: auto;
+        padding: 0 1rem;
+    }
+
+     /* About*/
+
+    .body .about .about-feast .title{
+        font-size: 20px;
+    }
+    .body .about .about-feast-grid .feast-grid{
+        gap: 1rem; 
+        margin-top: 1rem;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left{
+        padding-top: 1rem;
+    }
+    
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .oil,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .tomatoes,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .shrimp,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .like{
+        font-size: 10px;
+    }
+    
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail .title-detail,
+    .body .about .about-feast-grid .feast-grid .feast-grid-detail-left .title-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .body .about .about-feast-grid .feast-grid img{
+        width: 25%;
+    }
+    .body .about .about-feast-grid .feast-grid .detail{
+        font-size: 8px;
+    }
+
+    /* About Taste */
+
+    .about .about-taste{
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+    
+    .about .about-taste .about-taste-side{
+        gap: 0.5rem;
+    }
+    
+    .about .about-taste .about-taste-side .title{
+        font-size: 20px;
+    }
+    
+    .about .about-taste .about-taste-side p{
+        font-size: 7px;
+        width: 80%;
+    }
+    
+    .about .about-taste .about-taste-side .button{
+        gap: 1rem;
+    
+    }
+    .about .about-taste .about-taste-img{
+        gap: 1rem;
+    }
+
+    .about .about-taste{
+        grid-template-columns: 8rem auto;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe img{
+        width: 100%;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe{
+        gap: 0.4rem;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe .title{
+        font-size: 10px;
+    }
+    
+    .about .about-taste .about-taste-img .about-taste-recipe p{
+        font-size: 8px;
+    }
+
+    /* Order */
+ 
+    .order .text-wrapper{
+        height: 8vh;
+    }
+    
+    .order .text-wrapper p{
+        font-size: 30px;
+    }
+
+    .order .order-content .order-content-two .detail{
+        gap: 0.5rem;
+        padding: 0rem;
+        text-align: center;
+    }
+    
+    .order .order-content .order-content-two .detail .title{
+        font-size: 14px;
+    }
+
+    .order .order-content .order-content-two{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .order .order-content .order-content-two .content{
+        color: #686867;
+        font-size: 8px;
+    }
+    
+    .order .order-content .order-content-two button{
+        padding: 0.5rem 1rem;
+    }
+
+    /* Best Pizza */
+
+    .body .best-pizza{
+        background-size: cover;
+    }
+
+    .body .best-pizza .best-pizza-container .title{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    
+    .body .best-pizza .best-pizza-container{
+        padding: 2rem 1rem;
+    }
+
+    /* Speciality */
+
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 20vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.1rem;
+        padding: 0.1rem;
+        margin-left: -4rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 8px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+        padding: 0.5rem;
+        margin-top: 5px;
+        font-size: 7px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+        font-weight: 400;
+        font-size: 8px;
+        color: #555555;
+        padding-left: 5rem;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(80px,1fr));
+        width: 100%;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 8px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        font-weight: 400;
+        width: 180px;
+        margin-bottom: -1rem;
+    }
+
+    .pizza-marquee .marquee-text{
+        height: 10vh;
+    }
+    
+    .pizza-marquee .marquee-text p{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:380px){
+    /* Speciality */
+
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2{
+        height: 17vh;
+        width: auto;
+    }
+    
+    .speciality .speciality1 .speciality2-content,
+    .speciality .speciality2 .speciality1-content2 {
+        gap: 0.1rem;
+        padding: 0.1rem;
+        margin-left: -4.5rem;
+    }
+    
+    .speciality .speciality1 .speciality2-content .content1-title,
+    .speciality .speciality2 .speciality1-content2 .content-title{
+        font-size: 10px;
+        font-weight: 700;
+    }
+    
+    .speciality .speciality1 .speciality2-content p{
+        font-size: 7px;
+        
+    }
+    
+    .speciality .speciality1 .speciality2-content button{
+
+        font-size: 7px;
+    }
+    
+    .speciality .speciality2 .speciality1-content2 p{
+
+        font-size: 7px;
+
+    }
+    .speciality .speciality2 .speciality1-content2 .price .price1 p,
+    .speciality .speciality2 .speciality1-content2 .price .price2 p{
+        font-size: 7px;
+    }
+
+    .speciality .speciality2 .speciality1-content2 .price .price2{
+        padding-left: 0rem;
+    }
+
+    .speciality .speciality2 .speciality1-content2 .price{
+        padding-left: 0rem;
+    }
+
+    .pizza-marquee .marquee-text{
+        height: 8vh;
+    }
+    
+    .pizza-marquee .marquee-text p{
+        font-size: 30px;
+    }
+}

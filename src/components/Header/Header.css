@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&display=swap');
+
+
+.header{
+    height: 40vw;
+    width: auto;
+    background: linear-gradient(50deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), url('/header.png');
+    background-position: center;
+    margin-top: -10rem;
+    background-size: cover;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
+    width: 100%;
+    bottom: 40%;
+    left: 8%;
+    animation: fadeIn 3s ;
+}
+
+.header-contents span{
+    font-family: "Oleo Script", system-ui;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 300;;
+}
+
+.header-contents button{
+    padding: 0.7rem 2.5rem;
+    background-color: #D63920;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media (max-width:1050px){
+    .header{
+        height: 50vw;
+    }
+    .header-contents{
+        gap: 3rem;
+        max-width: 50%;
+        bottom: 55%;
+        left: 8%;
+    }
+    .header-contents span{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width:900px){
+    .header-contents{
+        gap: 2.5rem;
+        max-width: 50%;
+        bottom: 65%;
+        left: 5%;
+    }
+    .header-contents span{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:750px){
+    .header{
+        height: 60vw;
+    }
+    .header-contents{
+        gap: 2.5rem;
+        max-width: 50%;
+        bottom: 65%;
+        left: 6%;
+    }
+    .header-contents span{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:600px){
+    .header{
+        height: 70vw;
+    }
+    .header-contents{
+        gap: 0.5rem;
+        bottom: 78%;
+        left: 5%;
+    }
+    .header-contents span{
+        font-size: 23px;
+    }
+    .header-contents button{
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:426px){
+    .header{
+        height: 80vw;
+    }
+
+}
+
+@media (max-width:390px){
+    .header-contents span{
+        font-size: 20px;
+    }
+    .header-contents{
+        gap: 0.5rem;
+        bottom: 80%;
+        left: 7%;
+    }
+}

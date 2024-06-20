@@ -1,0 +1,31 @@
+.app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: max(2vw,20px);
+    gap: 1rem;
+    font-weight: 700;
+    margin: 5rem 0;
+    font-family: "Outfit", sans-serif;
+    color: #2d2d2d;
+}
+
+.app-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+}
+
+.app-download-platforms img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.app-download-platforms img:hover{
+    transform: scale(1.1);
+}

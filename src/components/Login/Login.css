@@ -1,0 +1,92 @@
+.login{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-container{
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 3rem;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(235, 10, 10, 0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    
+}
+
+.login-title i{
+    cursor: pointer;
+}
+
+.login-title h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+}
+
+.login-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.login-input input{
+    display: block;
+    height: 30px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.login-condition .checked {
+    height: 15px;
+    margin-top: 1px;
+}
+
+.login-condition {
+   display: flex;
+   align-items:start;
+   gap: 8px;
+   margin-top: 1rem;
+}
+
+.login-container button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #080710;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-input span{
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+}
