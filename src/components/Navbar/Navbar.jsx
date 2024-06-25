@@ -24,6 +24,9 @@ const Navbar = ({setShowLogin}) => {
       case "/contact":
         setMenu("contact");
         break;
+      case "/pizzalicious":
+        setMenu("home");
+        break;
       default:
         setMenu("home");
     }
@@ -31,10 +34,10 @@ const Navbar = ({setShowLogin}) => {
 
   return (
     <div className='navbar'>
-      <Link to='/'><img src={assets.logo1} alt="Logo" className='logo' /></Link>
+      <Link to='/pizzalicious'><img src={assets.logo1} alt="Logo" className='logo' /></Link>
       <ul className={`navbar-menu ${showMenu ? 'show' : ''}`}>
         <li className={menu === "home" ? "active" : ""}>
-          <Link to="/" onClick={() => setMenu("home")}>Home</Link>
+          <Link to="/pizzalicious" onClick={() => setMenu("home")}>Home</Link>
         </li>
         <li className={menu === "menu" ? "active" : ""}>
           <Link to="/menu" onClick={() => setMenu("menu")}>Menu</Link>
